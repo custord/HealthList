@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HealthList</string>
+
+    <string-array name="category">
+        <item>Chiropractor</item>
+        <item>Physician</item>
+        <item>Physiotherapist</item>
+        <item>Psychologist</item>
+        <item>Surgeon</item>
+
+    </string-array>
+</resources>
+

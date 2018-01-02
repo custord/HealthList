@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.custord.user.healthlist.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relLayoutMiddlde"
+            android:layout_above="@+id/relLayoutBotBar">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/colorcustomerlogin"
+                android:elevation="12dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="List of Doctors"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button1"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/black"
+                        android:text="Dr. David&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:text="Dr. Sharon&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/black"
+                        android:text="Dr. Garald&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:text="Dr. Frank&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/black"
+                        android:text="Dr. Lily&#10;Sunway Medical Centre, Selangor"
+                        android:textAlignment="center"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:text="Dr. Ellen&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/black"
+                        android:text="Dr. Rick&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:text="Dr. Mia&#10;Sunway Medical Centre, Selangor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/relLayoutBotBar"
+            android:layout_alignParentBottom="true">
+
+            <android.support.design.widget.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bottomNavViewBar"
+                android:background="@drawable/grey_border_bar"
+                app:menu="@menu/bottom_navigation_menu"
+                >
+
+            </android.support.design.widget.BottomNavigationView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
